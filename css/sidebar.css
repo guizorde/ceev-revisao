@@ -1,0 +1,35 @@
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+}
+
+#sidebar div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#sidebar #selected {
+    background-color: rgba(var(--darker-gray));
+}
+
+#sidebar div h2 {
+    color: rgba(var(--white));
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 1.1vw;
+}
+
+#sidebar div a {
+    color: rgba(var(--white));
+    text-decoration: none;
+    font-family: var(--primary-font);
+    font-weight: 300;
+    font-size: 1vw;
+    transition: .2s;
+}
+
+#sidebar div a:hover {
+    background-color: rgba(var(--darker-gray));
+}
